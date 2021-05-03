@@ -39,14 +39,25 @@ input {
 }
 
 .btn_cont {
-    margin-top: 1em;
-}
-
-.btn_cont button {
-    padding: 1em;
     border: none;
+    padding: 10px 20px;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
+.btn_cont1 {
+    background-color: white; 
+    color: black;
+    border: 1px solid grey;
+
+}
+
+.btn_cont1:hover {
+  background-color: gray;
+  color: white;
+}
 footer {
     background-color: rgb(240,236,236)
 }
